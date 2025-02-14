@@ -1,0 +1,1 @@
+#COMENZAR SIEMPRE ACTIVANDO CONDA : conda env list (activar la de golf)
