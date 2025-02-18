@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Cargar variables de entorno
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:MarioKartW3138@localhost:5432/tu_base_de_datos")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:MarioKartW3138@localhost:5432/golf_db")
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
